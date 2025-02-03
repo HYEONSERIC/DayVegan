@@ -1,11 +1,24 @@
-/* 버튼 컨테이너 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-/* 버튼 디자인 */
 .button-box {
     background-color: white;
     border-radius: 50px;
@@ -16,7 +29,6 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-weight: bold;
 }
 
 .button-box:hover {
@@ -24,10 +36,14 @@
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* 버튼 내 텍스트 */
+.button-box i {
+    font-size: 30px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
 .button-box p {
     font-size: 16px;
     font-weight: bold;
     color: #333;
 }
-

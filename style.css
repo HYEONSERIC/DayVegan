@@ -94,3 +94,16 @@ button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical; /* Allows vertical resizing, not horizontal */
+}
+

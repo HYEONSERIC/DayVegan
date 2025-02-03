@@ -56,15 +56,15 @@ header {
     background-color: #f0f0f0;
 }
 
-.footer-link {
+.footer-link, .button-box a {
     margin: 0 10px;
     color: #333;
-    text-decoration: none;
+    text-decoration: none; /* 밑줄 제거 */
     font-weight: bold;
 }
 
-.footer-link:hover {
-    text-decoration: underline;
+.footer-link:hover, .button-box a:hover {
+    text-decoration: underline; /* 마우스 오버 시 밑줄 추가 */
 }
 
 .form-group {
@@ -104,6 +104,5 @@ select, textarea {
 }
 
 textarea {
-    resize: vertical; /* Allows vertical resizing, not horizontal */
+    resize: vertical; /* 세로 크기 조절 가능 */
 }
-

@@ -1,3 +1,4 @@
+/* ===== 기본 스타일 유지 ===== */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -59,50 +60,87 @@ header {
 .footer-link, .button-box a {
     margin: 0 10px;
     color: #333;
-    text-decoration: none; /* 밑줄 제거 */
+    text-decoration: none;
     font-weight: bold;
 }
 
 .footer-link:hover, .button-box a:hover {
-    text-decoration: underline; /* 마우스 오버 시 밑줄 추가 */
+    text-decoration: underline;
 }
 
-.form-group {
-    margin-bottom: 10px;
+/* ===== 문의사항 스타일 추가 ===== */
+.inquiry-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-label {
+/* 문의 폼 스타일 */
+.inquiry-form label {
     display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-input[type="text"], input[type="email"], input[type="password"] {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-}
-
-button {
+.inquiry-form input[type="text"], 
+.inquiry-form textarea {
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inquiry-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.inquiry-form button {
     background-color: #4CAF50;
     color: white;
     border: none;
-    cursor: pointer;
-}
-
-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-select, textarea {
+    padding: 10px;
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-textarea {
-    resize: vertical; /* 세로 크기 조절 가능 */
+.inquiry-form button:hover {
+    background-color: #45a049;
+}
+
+/* 문의 목록 스타일 */
+.inquiry-list {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-list .inquiry-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.inquiry-list .inquiry-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.inquiry-list .inquiry-item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
 }

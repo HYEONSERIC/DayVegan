@@ -8,21 +8,23 @@
 </head>
 <body>
 
-    <h1>문의사항</h1>
+    <header>문의사항</header>
 
-    <!-- 문의사항 입력 폼 -->
-    <form id="inquiry-form">
-        <label for="title">제목:</label>
-        <input type="text" id="title" required>
+    <div class="inquiry-container">
+        <h2>문의사항 작성</h2>
+        <form id="inquiry-form" class="inquiry-form">
+            <label for="title">제목:</label>
+            <input type="text" id="title" required>
 
-        <label for="message">문의 내용:</label>
-        <textarea id="message" required></textarea>
+            <label for="message">문의 내용:</label>
+            <textarea id="message" required></textarea>
 
-        <button type="submit">문의하기</button>
-    </form>
+            <button type="submit">문의하기</button>
+        </form>
+    </div>
 
-    <h2>문의 목록</h2>
-    <div id="inquiry-list">
+    <div class="inquiry-list">
+        <h2>문의 목록</h2>
         <p>등록된 문의가 없습니다.</p>
     </div>
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의사항 - Day Vegan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>문의사항</h1>
+
+    <!-- 문의사항 입력 폼 -->
+    <form id="inquiry-form">
+        <label for="title">제목:</label>
+        <input type="text" id="title" required>
+
+        <label for="message">문의 내용:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">문의하기</button>
+    </form>
+
+    <h2>문의 목록</h2>
+    <div id="inquiry-list">
+        <p>등록된 문의가 없습니다.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

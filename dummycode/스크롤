@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 소개 - DayVegan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>🍽️ DayVegan 메뉴 소개</header>
+    <nav>
+        <ul>
+            <li><a href="#cakes">케이크</a></li>
+            <li><a href="#cookies">쿠키</a></li>
+            <li><a href="#drinks">음료</a></li>
+        </ul>
+    </nav>
+
+    <p class="menu-description">신선하고 건강한 비건 메뉴를 만나보세요!</p>
+
+    <div class="menu-container">
+        <div id="cakes" class="category">
+            <h2>케이크</h2>
+            <div class="menu-item">
+                <img src="menu_choco_cake.jpg" alt="현미초코파운드">
+                <h3>현미초코파운드</h3>
+                <p>쿠쿠 달달구리</p>
+                <span class="price">₩5,000</span>
+            </div>
+            <!-- 다른 케이크 메뉴 아이템들 -->
+        </div>
+
+        <div id="cookies" class="category">
+            <h2>쿠키</h2>
+            <div class="menu-item">
+                <img src="menu_choco_cake.jpg" alt="초코르뱅쿠키">
+                <h3>초코르뱅쿠키</h3>
+                <p>쿠쿠 달달구리</p>
+                <span class="price">₩5,000</span>
+            </div>
+            <!-- 다른 쿠키 메뉴 아이템들 -->
+        </div>
+
+        <div id="drinks" class="category">
+            <h2>음료</h2>
+            <div class="menu-item">
+                <img src="menu_almond_smoothie.jpg" alt="아메리카노">
+                <h3>아메리카노</h3>
+                <p>바리스타 윤농이가 내린 검은콩물.</p>
+                <span class="price">₩2,500</span>
+            </div>
+            <!-- 다른 음료 메뉴 아이템들 -->
+        </div>
+    </div>
+
+</body>
+</html>
